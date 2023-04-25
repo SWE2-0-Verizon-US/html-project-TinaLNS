@@ -65,7 +65,7 @@ img {
 h1, p {
 	text-align: left;
 	margin: 0 auto;
-	width: 50%;
+	width: 75%;
 	font-size: 20px;
 	font-style: italic;
 	position: relative;
@@ -85,6 +85,7 @@ h1, p {
     height: 80vh;
     color:#3576d7;
     margin-left: 100px;
+    text-shadow: 1px 1px 1px #000;
 }
 
 footer, h4 {

@@ -66,17 +66,20 @@ body {
   
   .flex-container {
     display: flex;
-    flex-direction: row; /* set the main axis direction to row */
-  }
+    flex-direction: wrap-around; /* set the main axis direction to row */
+    
+}
   
   .card-container {
     display: flex;
-    flex-direction: row;
+    flex-direction: wrap;
     justify-content: space-between;
     align-content: space-between;
     gap: 20px;
     width: 100%;
-    margin-left: 5vw;
+    margin-left: 10vw;
+    margin-top: 20vh;
+    
   }
   
   .card {
