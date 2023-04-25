@@ -1,0 +1,91 @@
+body {
+	background-image: url('https://media.istockphoto.com/id/484470418/photo/soap-bubbles-on-a-white-background.jpg?b=1&s=170667a&w=0&k=20&c=45-k41wIQcIQ-iuQNEdYU0W9yUTs7lN0Z0tc0u5a6b0=');
+	width: 100vh;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+ /* Nav bar */
+ nav {
+    background-color: #37bcd6;
+    overflow: hidden;
+    border-radius: 30px; /* add round borders */
+  }
+  
+  nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+  }
+  
+  nav li {
+    float: left;
+  }
+  
+  nav li a {
+    display: block;
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    
+  }
+  
+  /* add hover effect */
+  nav li a:hover {
+    background-color: #3cabff;
+    color: white;
+  }
+  
+  /* add active/current tab */
+  nav li.active a {
+    background-color: #941ecf;
+    color: skyblue;
+  }
+  
+img {
+	display: block;
+	width: 40%;
+	position: absolute;
+	bottom: 0px;
+	right: 0px;
+	margin: auto;
+}
+
+#header {
+	border: 2px double #003144;
+	padding: 30px;
+	margin: auto;
+}
+h1, p {
+	text-align: left;
+	margin: 0 auto;
+	width: 50%;
+	font-size: 20px;
+	font-style: italic;
+	position: relative;
+    border: 3px solid black;
+    background-color: lightgray;
+    
+}
+
+.bio {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border: 2px solid black;
+    height: 70vh;
+}
+
+footer {
+	position: fixed;
+	left: 0;
+	bottom: 0;
+	width: 100%;
+	background-color:white;
+	color: rgb(3, 3, 3);
+	text-align: center;
+}
