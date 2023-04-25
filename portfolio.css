@@ -1,22 +1,24 @@
 body {
 	background-image: url('https://media.istockphoto.com/id/484470418/photo/soap-bubbles-on-a-white-background.jpg?b=1&s=170667a&w=0&k=20&c=45-k41wIQcIQ-iuQNEdYU0W9yUTs7lN0Z0tc0u5a6b0=');
 	width: 100vh;
-	display: flex;
-    flex-direction: row;
+	/* display: flex; */
+    /* flex-direction: row; */
 	align-items: center;
 }
 
  /* Nav bar */
- nav {
+ .nav {
     background-color: #72a9fb;
     overflow: hidden;
     border-radius: 30px; /* add round borders */
     color: white;
+    /* --bs-nav-link-color: white(--bs-nav-link-color); */
   }
   
   nav ul {
     list-style-type: none;
-    margin: 0;
+    margin-left: 40vh;
+    margin-top: 5vh;
     padding: 0;
     display: flex;
     color: white;
@@ -59,9 +61,12 @@ body {
   /* Style the header */
   .header {
     /* background-color: ; */
-    padding: 30px;
+    padding-left: 40vh;
+    margin-top: 10vh;
     text-align: center;
     font-size: 35px;
+    color: #72a9fb;
+    
   }
   
   .flex-container {
