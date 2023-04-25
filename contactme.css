@@ -6,20 +6,21 @@ body {
 	align-items: center;
 }
 
-img {
-	display: block;
-	width: 40%;
-	position: absolute;
-	top: 0px;
-    right: 0px;	
-	margin: auto;
- }
+#img {
+    display: block;
+    width: 50%;
+    position: absolute; 
+    bottom: 0px; 
+    right: 0px;
+    transform: translate(30%, 10%);
+  }
 
-  /* Nav bar */
-  nav {
-    background-color: #37bcd6;
+ /* Nav bar */
+ nav {
+    background-color: #72a9fb;
     overflow: hidden;
     border-radius: 30px; /* add round borders */
+    color: white;
   }
   
   nav ul {
@@ -27,6 +28,7 @@ img {
     margin: 0;
     padding: 0;
     display: flex;
+    color: white;
   }
   
   nav li {
@@ -51,11 +53,12 @@ img {
   
   /* add active/current tab */
   nav li.active a {
-    background-color: #941ecf;
+    background-color: #72a9fb;
     color: skyblue;
   }
-  
-h3 {
+
+
+#heading {
     text-align: center;
     margin-top: auto;
     color: #2026e8;

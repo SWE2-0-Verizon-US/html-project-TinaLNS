@@ -8,9 +8,10 @@ body {
 
  /* Nav bar */
  nav {
-    background-color: #37bcd6;
+    background-color: #72a9fb;
     overflow: hidden;
     border-radius: 30px; /* add round borders */
+    color: white;
   }
   
   nav ul {
@@ -18,6 +19,7 @@ body {
     margin: 0;
     padding: 0;
     display: flex;
+    color: white;
   }
   
   nav li {
@@ -42,7 +44,7 @@ body {
   
   /* add active/current tab */
   nav li.active a {
-    background-color: #941ecf;
+    background-color: #72a9fb;
     color: skyblue;
   }
   
@@ -99,6 +101,14 @@ body {
     width: calc(50% - 10px);
   }
 
+  #img {
+    display: block;
+    width: 50%;
+    position: absolute; 
+    bottom: 0px; 
+    right: 0px;
+    transform: translate(30%, 10%);
+  }
 
   /* Footer*/
   footer {
@@ -111,9 +121,9 @@ body {
     text-align: center;
   }
 
-  /* @media (max-width: 600px) {
+  @media (max-width: 600px) {
     .row {
       -webkit-flex-direction: column;
       flex-direction: column;
-    } */
-/* } */
+    }
+  }
